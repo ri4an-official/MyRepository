@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MSP_Exam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="163.063" Width="464.1">
+        Title="MainWindow" Height="243.863" Width="464.1">
     <Grid>
 
         <StackPanel Margin="21,10,223.6,9.6" HorizontalAlignment="Center" Width="203">
@@ -17,6 +17,6 @@
             <AccessText/>
             <Button Click="ShowWeather_Click" Content="Показать погоду" Margin="0,0,27,0"/>
         </StackPanel>
-        <TextBlock x:Name="blockInfo" FontSize="20" TextWrapping="Wrap" Text="" Margin="234,10,9.6,9.6"/>
+        <TextBlock x:Name="blockInfo" FontSize="20" TextWrapping="Wrap" Text="" Margin="234,43,9.6,9.4"/>
     </Grid>
 </Window>
