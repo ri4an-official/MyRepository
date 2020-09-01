@@ -1,0 +1,20 @@
+﻿<Window x:Class="MSP_Exam.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MSP_Exam"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="163.063" Width="464.1">
+    <Grid>
+
+        <StackPanel Margin="21,10,223.6,9.6" HorizontalAlignment="Center" Width="203">
+            <TextBlock Text="Погода в городе " FontSize="20"/>
+            <AccessText/>
+            <TextBox x:Name="tbCity" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>
+            <AccessText/>
+            <Button Click="ShowWeather_Click" Content="Показать погоду" Margin="0,0,27,0"/>
+        </StackPanel>
+        <TextBlock x:Name="blockInfo" FontSize="20" TextWrapping="Wrap" Text="" Margin="234,10,9.6,9.6"/>
+    </Grid>
+</Window>
