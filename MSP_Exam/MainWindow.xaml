@@ -9,6 +9,8 @@
     <Grid>
 
         <StackPanel Margin="21,10,223.6,9.6" HorizontalAlignment="Center" Width="203">
+            <Button Click="ShowInfo_Click" Content="О Программе" BorderBrush="White" Background="White" Margin="0,0,73.2,0"/>
+            <AccessText/>
             <TextBlock Text="Погода в городе " FontSize="20"/>
             <AccessText/>
             <TextBox x:Name="tbCity" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="157"/>

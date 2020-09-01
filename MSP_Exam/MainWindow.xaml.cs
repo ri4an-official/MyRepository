@@ -44,5 +44,10 @@ namespace MSP_Exam
             }
             blockInfo.Text = Weathers[r.Next(Weathers.Length)].ToString();
         }
+
+        private void ShowInfo_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Программа была создана Губер Вадимом.Выполняет функцию показа погоды");
+        }
     }
 }
